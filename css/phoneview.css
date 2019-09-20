@@ -60,22 +60,22 @@ H1{
 }
 
 .card1{
-	width:100px;
-	height:100px;
-	background-color:red;
+	width:90px;
+	height:90px;
+	background-color:#479AC7;
 	color:white;	
 }
 
 .card2{
-	width:100px;
-	height:100px;
-	background-color:yellow;
+	width:90px;
+	height:90px;
+	background-color:#3A5FCD;
 	color:white;
 }
 
 .card3{
-	width:100px;
-	height:100px;
-	background-color:blue;
+	width:90px;
+	height:90px;
+	background-color:#00B271;
 	color:white;
 }
