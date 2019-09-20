@@ -1,0 +1,81 @@
+body {
+  font-family: LiSu;
+  font-size: 17px;
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+}
+
+p{
+  text-align: center;
+}
+
+H1{
+  text-align: center;
+}
+
+.titlezone{
+	color: white;
+}
+
+.indexzone{	
+  position: absolute;
+  right: -150px;
+  top: 45px;
+}
+
+.indexzone > ul > li {
+  list-style: none;
+}
+
+.indexzone > ul > li > a {
+  display: block;
+  padding: 12px 15px;
+  color: #999A9B;
+}
+
+.indexzone > ul > li.active > a,
+.indexzone > ul > li > a:hover,
+.indexzone > ul > li > a:focus {
+  color: #0299CC;
+}
+
+.indexzone-deco {
+  display: inline-block;
+  width: 20px;
+  height: 8px;
+  background-color: #999A9B;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.indexzone > ul > li.active > a > .indexzone-deco,
+.indexzone > ul > li:hover > a > .indexzone-deco
+ {
+  background-color: #0299CC;
+}
+
+.concentzone{
+	width:600px;	
+}
+
+.card1{
+	width:100px;
+	height:100px;
+	background-color:red;
+	color:white;	
+}
+
+.card2{
+	width:100px;
+	height:100px;
+	background-color:yellow;
+	color:white;
+}
+
+.card3{
+	width:100px;
+	height:100px;
+	background-color:blue;
+	color:white;
+}
