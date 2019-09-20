@@ -10,53 +10,29 @@ p{
   text-align: center;
 }
 
+a{
+	text-decoration:none;
+}
+
+a:link {
+color: white; /*连接默认的颜色变化*/
+}
+a:visited {
+color: #0000FF; /*连接访问的颜色变化*/
+}
+a:hover {
+color: #00FF00; /*鼠标经过的颜色变化*/
+}
+a:active {
+color: #FFFF00; /*鼠标按下的颜色变化*/
+}
+
 H1{
   text-align: center;
 }
 
 .titlezone{
 	color: white;
-}
-
-.indexzone{	
-  position: absolute;
-  right: -150px;
-  top: 45px;
-}
-
-.indexzone > ul > li {
-  list-style: none;
-}
-
-.indexzone > ul > li > a {
-  display: block;
-  padding: 12px 15px;
-  color: #999A9B;
-}
-
-.indexzone > ul > li.active > a,
-.indexzone > ul > li > a:hover,
-.indexzone > ul > li > a:focus {
-  color: #0299CC;
-}
-
-.indexzone-deco {
-  display: inline-block;
-  width: 20px;
-  height: 8px;
-  background-color: #999A9B;
-  vertical-align: middle;
-  margin-right: 20px;
-}
-
-.indexzone > ul > li.active > a > .indexzone-deco,
-.indexzone > ul > li:hover > a > .indexzone-deco
- {
-  background-color: #0299CC;
-}
-
-.concentzone{
-	width:600px;	
 }
 
 .card1{
