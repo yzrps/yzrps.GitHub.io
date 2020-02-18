@@ -65,7 +65,7 @@
 .orange { color:#F9AA00 }
 
 /*----------nav----------*/
-.background #nav{ margin-bottom:10px;background: url(/images/02.png) no-repeat top center;}
+.background #nav{ margin-bottom:10px;background: url(/images/navbg.png) no-repeat top center;}
 .nav{ height:35px; line-height:35px; position:relative; }
 .nav a,.right_nav a{ color:#0168b7;   }
 .nav .nLi{ float:left;  position:relative; display:inline;  }
@@ -78,4 +78,4 @@
 .blank10 { height:10px; font-size:0; line-height:0; }
 .wid { width:1022px; margin:0 auto; background-color: white;}
 .background {color:#0160B4}
-.flash { height:160px;    background: url(/images/8.png) no-repeat;}
+.flash { height:160px;    background: url(/images/logo.png) no-repeat;}
