@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang=zh-cmn-Hans">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="SiteName" content="軒轅傲侯的天書世界">
+    <meta name="SiteDomain" content="https://yzrps.github.io">
+    <base target="_blank">
+    <title>軒轅傲侯的天書世界</title>
+    <link type="text/css" rel="stylesheet" href="css/base.css">
+</head>
+<body>
+	<!--页面顶部开始-->
+	<div class="background">
+		<script type="text/javascript" src="./js/topNav.js" charset="utf-8"></script>
+	</div>
+	<!--页面顶部结束-->
+	<!--页面中部开始-->
+	<div class="wid pt10">
+	<div>
+	<span><img src="./images/dh.png"><a href="https://yzrps.github.io">軒轅劍</a></span>
+	<span><a href="./index.html">煉妖壺</a></span>
+	<span><a href="">東皇鐘</a></span>
+	<span><a href="">盤古斧</a></span>
+	<span><a href="">昊天塔</a></span>
+	</div>
+	<div class="clear"></div>
+	<div class="blank10"></div>
+	<div>
+	<span><a href="">伏羲琴</a></span>
+	<span><a href="">神農鼎</a></span>
+	<span><a href="">崆峒印</a></span>
+	<span><a href="">昆侖鏡</a></span>
+	<span><a href="">女媧石</a></span>
+	</div>
+    </div>
+	<div class="clear"></div>
+	<div class="blank10"></div>
+	</div>
+	<!--页面中部结束-->
+	<!--网站导航开始-->
+	<div class="clear"></div>
+	<div class="blank10"></div>
+	<script type="text/javascript" src="./static/js/bottomNav.js"></script>
+	<!--网站导航结束-->
+	<!--页面底部开始-->
+	<div class="clear"></div>
+	<script type="text/javascript" src="./static/js/bottomInfo.js" charset="utf-8"></script>
+	<!--页面底部结束-->
+	<script src="./static/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="./static/js/share.js" charset="utf-8"></script>
+	<!--页面侧边栏开始-->
+	<script>
+		function closePannel(){
+			document.getElementById('identifier-pannel').style.display='none';}
+	</script>
+	<script type="text/javascript" src="./static/js/rightSide.js" charset="utf-8"></script>
+	<!--页面侧边栏结束-->
+	<script type="text/javascript" src="./static/js/scroll.js"></script>
+	<script type="text/javascript">
+		$(".nav .nLi").removeClass("on");
+	$(".index").addClass("on");
+	$(function() {
+		$('.myscroll').myScroll({
+			speed: 80, 
+			rowHeight: 160 
+			});
+		});
+		tools.newsvideo();
+		tools.zscd();
+		$(".unbind").unbind("mouseover");
+	</script>
+	<!--右下角弹窗开始-->
+	<script type="text/javascript" src="./static/js/floatTips.js"></script>
+	<script>
+		$(function (){
+			$('.zzsc').animate({right:'10px'},1000);
+			$('.zzsc .close').click(function(){
+				$('.zzsc').hide();
+				});
+			});	
+	</script>
+	<script>
+		function closeFloatText(){
+			document.getElementById('gonggao').style.display = 'none';}
+	</script>
+	<!--右下角弹窗结束-->
+</body>
+</html>
