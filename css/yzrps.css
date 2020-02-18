@@ -1,0 +1,18 @@
+/*--LOGO--*/
+.logo{height:220px;background-image :url(../images/logo_1.png);background-repeat : no-repeat;background-position : center;}
+
+/*--MENU--*/
+.menu{width:1000px;margin:0 auto;}
+.menu ul{list-style-type:none;margin:0;padding:0;overflow:hidden;}
+.menu li{float:left;}
+.menu a:link,a:visited{display:block;width:92px;font-weight:bold;color:#FFFFFF;background-color:#bebebe;text-align:center;padding:4px;text-decoration:none;text-transform:uppercase;}
+.menu a:hover,a:active{background-color:#cc0000;}
+
+/*--GENERAL--*/
+.wid {width:1000px; margin:0 auto; background-color: white;}
+.clear { clear:both; }
+.white{color:#FFF}
+
+/*--FOOTER--*/
+
+/*--SIDE--*/
