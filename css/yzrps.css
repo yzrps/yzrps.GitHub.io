@@ -1,26 +1,27 @@
 /*--LOGO--*/
 /*.logo{height:220px;background-image :url(../images/logo_1.png);background-repeat : no-repeat;background-position : center;}*/
-.logo{position: relative;width: 1000px;height: 100px;background: #ffe4c4;margin:0 auto;font-family:LiSu;font-size: 84px;text-align: center;}
+.logo{position: relative;width: 1000px;height: 160px;background: #ffe4c4;margin:0 auto;font-family:LiSu;font-size: 300%;text-align: center;}
 
 /*--MENU--*/
 .menu{width:1000px;margin:0 auto;font-size: 24px;}
 .menu ul{list-style-type:none;margin:0;padding:0;overflow:hidden;}
 .menu li{float:left;}
-.menu a:link,a:visited{display:block;width:192px;font-family:BiauKai,STKaiti,DFKai-SB,KaiTi_GB2312,KaiTi;font-weight:bold;color:#303030;background-color:#ffe4c4;text-align:center;padding:4px;text-decoration:none;text-transform:uppercase;}
+.menu a:link,a:visited{display:block;width:242px;font-family:BiauKai,STKaiti,DFKai-SB,KaiTi_GB2312,KaiTi;font-weight:bold;color:#303030;background-color:#ffe4c4;text-align:center;padding:4px;text-decoration:none;text-transform:uppercase;}
 .menu a:hover,a:active{background-color:#cc0000;}
 
 /*--GENERAL--*/
-.main{position: relative;width: 1000px;height: 600px;background: #ffe4c4;margin:0 auto;font-family:KaiTi;font-size: 24px;text-align: center;}
-.main .jjx{background-repeat : no-repeat;background-position : center;}
+.main{position: relative;width: 1000px;height: 1200px;background: #ffe4c4;margin:0 auto;}
+.main .jjx{background-repeat : no-repeat;background-position : center;background: #ffe4c4;margin:0 auto;text-align: center;}
+.main .xyy{font-family:KaiTi;font-size: 24px;text-align: left;}
 .static-main {position: absolute;width: 100%;height: 100%;opacity: 1;transition: opacity 2s ease-in-out;}
 .hover-main {position: absolute;width: 100%;height: 100%;opacity: 0;transition: opacity 2s ease-in-out;}
 .main:hover .static-main {opacity: 0;}
 .main:hover .hover-main {opacity: 1;}
 .clear {clear:both; }
-.blank10 { height:10px; font-size:0; line-height:0; }
+.blank20 { width: 1000px;height:20px; font-size:0; line-height:0; background-color:#ffe4c4;margin:0 auto;}
 
 /*--FOOTER--*/
-.footer{position: relative;width: 1000px;height: 40px;background: #ffe4c4;margin:0 auto;font-size: 14px;text-align: center;}
+.footer{position: relative;width: 1000px;height: 80px;background: #ffe4c4;margin:0 auto;font-size: 18px;text-align: center;}
 
 /*--FONTS--*/
 p.ht{font-family:Microsoft JhengHei,STHeiti,Microsoft YaHei,SimHei}
