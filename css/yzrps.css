@@ -10,7 +10,7 @@
 .menu a:hover,a:active{background-color:#cc0000;}
 
 /*--GENERAL--*/
-.main{position: relative;width: 1000px;height: 1200px;background: #ffe4c4;margin:0 auto;}
+.main{position: relative;width: 1000px;height: 1400px;background: #ffe4c4;margin:0 auto;}
 .main .jjx{background-repeat : no-repeat;background-position : center;background: #ffe4c4;margin:0 auto;text-align: center;}
 .main .xyy{font-family:KaiTi;font-size: 24px;text-align: left;}
 .static-main {position: absolute;width: 100%;height: 100%;opacity: 1;transition: opacity 2s ease-in-out;}
